@@ -22,11 +22,19 @@ input {
  min-width: 200px;
  min-height: 20px;
 }
+.title-header{
+  padding: 16%;
+  margin: 2%;
+  text-align: center;
+  font-size: 3rem;
+  font-family:'Courier New', Courier, monospace;
+  color: #FFCF89;
+}
 
 .search-container {
  display: inline-block;
- position: relative;
- margin-top: 30%;
+ position: absolute;
+ margin-top: 25%;
  background-color: #FFA80F;
  border: 4px;
 }
